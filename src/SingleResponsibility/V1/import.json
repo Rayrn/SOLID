@@ -1,0 +1,26 @@
+{
+  "content": [
+    {
+      "type": "embed",
+      "data": {
+        "provider": "brightcove",
+        "id": "4750163658001",
+        "name": "why have all my gooseberries dropped off"
+      }
+    },
+    {
+      "type": "heading",
+      "data": {
+        "level": "main",
+        "content": "Overview"
+      }
+    },
+    {
+      "type": "text",
+      "data": {
+        "mime": "text/html",
+        "content": "<p>Overview paragraph text here</p>\r\n<hr>\r\n<h2>Transcript</h2>\r\n<p>Assuming that a gooseberry plant is in good health, with glossy, green leaves, then fruits are most likely to fall off as a result of dry soil. Young berries often abort when conditions are not ideal for their development, and juicy gooseberries have a very high water content.<br></p>\r\n<p><br>\r\nKeep your plants well watered and mulch heavily around the entire root area with compost, or well-rotted manure.</p>\r\n\r\n"
+      }
+    }
+  ]
+}
