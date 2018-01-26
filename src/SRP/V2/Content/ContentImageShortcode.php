@@ -1,8 +1,8 @@
 <?php
 
-namespace SOLID\SingleResponsibility\V2\Content;
+namespace SOLID\SRP\V2\Content;
 
-use SOLID\SingleResponsibility\V2\Traits\GetImage;
+use SOLID\SRP\V2\Traits\GetImage;
 
 class ContentImageShortcode extends Content
 {

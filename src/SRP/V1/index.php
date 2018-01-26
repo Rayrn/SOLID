@@ -1,6 +1,6 @@
 <?php
 
-namespace SOLID\SingleResponsibility\V1;
+namespace SOLID\SRP\V1;
 
 require_once '../../../vendor/autoload.php';
 

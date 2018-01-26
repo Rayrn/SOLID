@@ -1,8 +1,8 @@
 <?php
 
-namespace SOLID\SingleResponsibility\V2\Content;
+namespace SOLID\SRP\V2\Content;
 
-class ContentAddPageBreak extends Content
+class ContentText extends Content
 {
      /**
      * PHP Magic Method (called when you try to echo an object)
@@ -11,6 +11,6 @@ class ContentAddPageBreak extends Content
      */
     public function __toString()
     {
-        return '<!--nextpage-->';
+        return $this->data->content;
     }
 }

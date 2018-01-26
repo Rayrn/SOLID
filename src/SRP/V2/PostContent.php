@@ -1,6 +1,6 @@
 <?php
 
-namespace SOLID\SingleResponsibility\V2;
+namespace SOLID\SRP\V2;
 
 class PostContent extends Component
 {

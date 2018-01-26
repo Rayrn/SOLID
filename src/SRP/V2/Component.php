@@ -1,6 +1,6 @@
 <?php
 
-namespace SOLID\SingleResponsibility\V1;
+namespace SOLID\SRP\V2;
 
 abstract class Component
 {

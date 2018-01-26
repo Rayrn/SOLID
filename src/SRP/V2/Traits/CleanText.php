@@ -1,6 +1,6 @@
 <?php
 
-namespace SOLID\SingleResponsibility\V2\Traits;
+namespace SOLID\SRP\V2\Traits;
 
 trait CleanText
 {

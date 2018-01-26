@@ -1,6 +1,6 @@
 <?php
 
-namespace SOLID\SingleResponsibility\V2\Content;
+namespace SOLID\SRP\V2\Content;
 
 abstract class Content
 {
