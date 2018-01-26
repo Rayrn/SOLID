@@ -19,8 +19,9 @@ class AreaCalculator
             if ($shape instanceof Rectangle) {
                 $area += ($shape->width * $shape->height);
             }
+
             if ($shape instanceof Circle) {
-                $area += ($shape->radius * 3.1416);
+                $area += ($shape->radius * $shape->radius * 3.1416);
             }
         }
         

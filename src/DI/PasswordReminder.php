@@ -6,7 +6,8 @@ class PasswordReminder
 {
     private $connection;
 
-    public function __construct(iConnection $connection) {
+    public function __construct(iConnection $connection)
+    {
         $this->connection = $connection;
     }
 

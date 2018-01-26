@@ -13,6 +13,6 @@ class Circle extends Shape
 
     public function calculateArea() : int
     {
-        return $this->radius * 3.1416;
+        return $this->radius * $this->radius * 3.1416;
     }
 }

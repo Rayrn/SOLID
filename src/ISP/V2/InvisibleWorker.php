@@ -20,9 +20,4 @@ class InvisibleWorker implements iBiological, iWorkable
     {
         $this->state = 'sleeping';
     }
-
-    public function getState() : string
-    {
-        return $this->state;
-    }
 }

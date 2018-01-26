@@ -4,7 +4,8 @@ namespace SOLID\DI;
 
 class DbConnection implements iConnection
 {
-    public function connect() {
+    public function connect()
+    {
         return true;
     }
 }

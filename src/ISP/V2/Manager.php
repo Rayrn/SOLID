@@ -21,7 +21,7 @@ class Manager
     public function feed()
     {
         foreach ($this->minions as $minion) {
-            if ($minion instanceOf iBiological) {
+            if ($minion instanceof iBiological) {
                 $minion->eat();
             }
         }
@@ -30,7 +30,7 @@ class Manager
     public function drug()
     {
         foreach ($this->minions as $minion) {
-            if ($minion instanceOf iBiological) {
+            if ($minion instanceof iBiological) {
                 $minion->rest();
             }
         }
@@ -41,7 +41,7 @@ class Manager
         $states = [];
 
         foreach ($this->minions as $minion) {
-            $states[] = $minion instanceOf iWatchable ? $minion->getState() : '???';
+            $states[] = $minion instanceof iWatchable ? $minion->getState() : '???';
         }
 
         return $states;
