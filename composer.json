@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "SOLID\\":"src"
+    }
+  },
+  "require": {
+    "twbs/bootstrap": "^4.3"
+  }
+}
